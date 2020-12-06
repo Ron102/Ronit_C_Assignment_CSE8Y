@@ -1,2 +1,20 @@
 # Ronit_C_Assignment_CSE8Y
 C Assignment codes
+**Write a C program to count number of digits in a number**
+```
+#include <stdio.h>
+int main() {
+    long long n;
+    int count = 0;
+    printf("Enter an integer: ");
+    scanf("%lld", &n);
+
+    while (n != 0) {
+        n /= 10;     // n = n/10
+        ++count;
+    }
+
+    printf("Number of digits: %d", count);
+}
+```
+**Write a C program to swap first and last digits of a number**
