@@ -1,7 +1,7 @@
 # Ronit_C_Assignment_CSE8Y
 C Assignment codes
-```
 **Write a C program to count number of digits in a number**
+```
 #include <stdio.h>
 int main() {
     long long n;
